@@ -1,0 +1,26 @@
+[17-Jun-2024 21:03:07 Asia/Saigon] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/kiemthe/public_html/includes/config.php:9
+Stack trace:
+#0 /home/kiemthe/public_html/includes/tlca_world.php(5): include()
+#1 /home/kiemthe/public_html/index.php(3): include('/home/kiemthe/p...')
+#2 {main}
+  thrown in /home/kiemthe/public_html/includes/config.php on line 9
+[17-Jun-2024 21:03:08 Asia/Saigon] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/kiemthe/public_html/includes/config.php:9
+Stack trace:
+#0 /home/kiemthe/public_html/includes/tlca_world.php(5): include()
+#1 /home/kiemthe/public_html/index.php(3): include('/home/kiemthe/p...')
+#2 {main}
+  thrown in /home/kiemthe/public_html/includes/config.php on line 9
+[17-Jun-2024 21:03:08 Asia/Saigon] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/kiemthe/public_html/includes/config.php:9
+Stack trace:
+#0 /home/kiemthe/public_html/includes/tlca_world.php(5): include()
+#1 /home/kiemthe/public_html/index.php(3): include('/home/kiemthe/p...')
+#2 {main}
+  thrown in /home/kiemthe/public_html/includes/config.php on line 9
+[17-Jun-2024 21:03:12 Asia/Saigon] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/kiemthe/public_html/includes/config.php:9
+Stack trace:
+#0 /home/kiemthe/public_html/includes/tlca_world.php(5): include()
+#1 /home/kiemthe/public_html/index.php(3): include('/home/kiemthe/p...')
+#2 {main}
+  thrown in /home/kiemthe/public_html/includes/config.php on line 9
+[19-Jun-2024 20:09:27 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/kiemthe/public_html/test.php on line 8
+[20-Jun-2024 22:09:58 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/kiemthe/public_html/test.php on line 8

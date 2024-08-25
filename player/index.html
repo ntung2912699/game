@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">s
+<head>
+    <meta charset="UTF-8">
+    <title>test video</title>
+    <link rel="stylesheet" href="video-js.css?v=3005172329" type="text/css" />
+    <link rel="stylesheet" href="videojs.ads.css" type="text/css" />
+    <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="video.js?v=0705172147"></script>
+    <script type="text/javascript" src="videojs-ie8.min.js"></script>
+</head>
+
+<body>
+    <style type="text/css">
+    .video-js .quality {
+        top: 9px;
+        right: 50px;
+    }
+
+    .quality {
+        z-index: 9999;
+        position: absolute;
+        top: 13px;
+        right: 15px;
+    }
+
+    .vquality {
+        padding: 3px 6px;
+        border-radius: 3px;
+        font-size: 11px;
+        font-weight: bold;
+        color: #FFF;
+        cursor: pointer;
+        width: 58px;
+        text-align: center;
+        border: 1px solid #FFF;
+    }
+    </style>
+    <link rel="stylesheet" href="video-js.css?v=3005172329" type="text/css" />
+    <link rel="stylesheet" href="videojs.ads.css" type="text/css" />
+    <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="video.js?v=0705172147"></script>
+    <script type="text/javascript" src="videojs-ie8.min.js"></script>
+    <video id="player" class="video-js vjs-default-skin" controls autoplay preload="auto" data-setup="{}">
+        <source src="http://nhacpro.net/stream/90b5.mp4" type="video/mp4" />
+        <div class="menu">Trình duyệt của bạn không hỗ trợ HTML5</div>
+    </video>
+    <script type="text/javascript" src="videojs.ads.js"></script>
+    <script type="text/javascript" src="ads.js?v=0911171421"></script>
+    <script type="text/javascript">
+    (function() {
+        var volume = videojs('player');
+        volume.persistvolume({
+            namespace: "volume"
+        });
+    })();
+    $('.vjs-control-bar').append('<div class="quality"><div class="vquality" onclick="show(\'vquality\');">360p▲</div></div>');
+    </script>
+</body>
+<div class="quality" data-id="90b5" data-cat="video">
+    <div id="vquality" style="display: block">
+        <div class="qmenu"><a href="javascript:;" onclick="quality('90b5', '1080', 'video');">1080p</a></div>
+        <div class="qmenu"><a href="javascript:;" onclick="quality('90b5', '720', 'video');">720p</a></div>
+        <div class="qmenu"><a href="javascript:;" onclick="quality('90b5', '480', 'video');">480p</a></div>
+        <div class="qmenu"><a href="javascript:;" onclick="quality('90b5', '360', 'video');">360p</a></div>
+    </div>
+</div>
+
+</html>
